@@ -23,7 +23,7 @@ body {
 .timer-display {
     position: relative;
     width: 110%;
-    background-color: rgba(220, 220, 220, 0.1);
+    background-color: rgba(240, 240, 240, 0.8);
     left: -5%;
     padding: 1em 0;
     font-family: "papyrus", fantasy;
@@ -33,7 +33,7 @@ body {
     align-items: center;
     justify-content: space-around;
     border-radius: 0.3em;
-    box-shadow: 0 0.5em 1em rgba(15, 15, 15, 0.1);
+    box-shadow: 0 0.5em 1em rgba(15, 15, 15, 0.2);
 }
 
 .buttons {
@@ -44,13 +44,19 @@ body {
 }
 
 .buttons button {
-    font-size: 1.12em;
-    background: rgba(220, 220, 220, 0.1);
-    color:rgba(0, 0, 0, 0.7);
+    font-size: 1.15em;
+    background: rgba(240, 240, 240, 0.4);
+    color:rgba(0, 0, 0, 0.9);
     border: none;
     font-family: "poppins", sans-serif;
     border-radius: 0.5em;
     padding: 1em 1.5em;
     cursor: pointer;
     outline: none;
+}
+
+#start-timer {
+    background-color: rgba(240, 240, 240, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+
 }
