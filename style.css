@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(210, 210, 210, 0.1);
+}
+
+.container {
+    background: rgba(120, 120, 120, 0.7);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: min(90%, 31.25em);
+    padding: 3.75em 0;
+    border-radius: 0.8em;
+    box-shadow: 0 1.97em 3.75em rgba(45, 45, 45, 0.4);
+}
+
+.timer-display {
+    position: relative;
+    width: 110%;
+    background-color: rgba(220, 220, 220, 0.1);
+    left: -5%;
+    padding: 1em 0;
+    font-family: "papyrus", fantasy;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.3em;
+    box-shadow: 0 0.5em 1em rgba(15, 15, 15, 0.1);
+}
+
+.buttons {
+    width: 80%;
+    margin: 3em auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    font-size: 1.12em;
+    background: rgba(220, 220, 220, 0.1);
+    color:rgba(0, 0, 0, 0.7);
+    border: none;
+    font-family: "poppins", sans-serif;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    outline: none;
+}
